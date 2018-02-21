@@ -16,6 +16,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		res.setContentType("text/plain;charset=utf-8");
 		PrintWriter pw = res.getWriter();
+		pw.println("Hello hainet!");
 		pw.print("i`it)v|[[[[(//s+)`(-\\\\/JJgbdd@@@@@@@dmKK(c!(/-[2=/cct/!-v\\!_L\\)|\n" +
 				"]-!/(!-)\\L\\)v|c5(!,!Ldd@@@@@@@@@@@@@@@@@@@dK/]!c\\\\\\v|i\\/cT\\v((c-\n" +
 				"]!`/v\\//(-|t\\VvcL!m@@@@@M@@@@@@@@@@@@@@@@@@@@bLt\\\\|)c/2-vv)/it\\.\n" +
